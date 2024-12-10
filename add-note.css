@@ -1,0 +1,115 @@
+body{
+  background-color: black;
+  color: gold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: gold;
+}
+a :hover{
+  text-decoration: underline;
+}
+.netnote{
+  font-family:'Courier New', Courier, monospace;
+  color: white;
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+  border: solid 2px white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  animation: netnote 1s ease-in;
+}
+@keyframes netnote{
+    from{
+        transform: translateY(-80px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.all{
+  margin: 10px 20px;
+}
+.head{
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.spacer{
+  width: 100%;
+}
+.i{
+  font-family:'Courier New', Courier, monospace;
+  border: solid 2px gold;
+  border-radius: 35px;
+  padding: 5px 10px ;
+  font-weight: bold;
+}
+.the-notes{
+  font-size: 19px;
+}
+.date{
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+input{
+  border: solid black;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  outline: none;
+}
+textarea{
+  border: solid black;
+  background-color: black;
+  color: white;
+  font-size: 17px;
+  outline: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+::placeholder{
+  color: gold;
+  text-align: center;
+  font-weight: lighter;
+}
+.note-name-div{
+  margin: 0 auto;
+  justify-content: center;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+.note-div{
+  margin-bottom: 10px;
+}
+.note{
+  border: solid black;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 140px;
+  min-height: 140px;
+  padding-bottom: 280px;
+  /* border:  2px solid white; */
+}
+.add-space{
+  display: flex;
+}
+.add{
+  text-align: right;
+  border: solid 2px gold;
+  border-radius: 35px;
+  padding: 0px 12px 3px 12px ;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* THE SAVED NOTE CSS */
+
+.the-body{
+  margin: 10px 15px ;
+  color: aliceblue;
+}

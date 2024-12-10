@@ -1,0 +1,87 @@
+body{
+  margin: 10px 25px;
+  background-color: black;
+  color: gold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+button{
+  cursor: pointer;
+}
+.big-note{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input{
+  border:none;
+  border-radius: 10px;
+  background-color: rgb(29, 28, 28);
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 15px;
+  color: white;
+}
+::placeholder{
+  color: white;
+  font-size: 16px;
+}
+.all-saved-notes{
+  background-color:  rgb(29, 28, 28);
+  padding: 10px 0px 10px 20px ;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.folder{
+  box-shadow: 0px 1px 0px 0px rgb(184, 183, 183);
+}
+.name-date{
+  width: 100%;
+  display: flex;
+  color: rgb(184, 183, 183);
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.spacer{
+  width: 100%;
+}
+.the-name{
+  width: 100%;
+  text-align: left;
+}
+.date-time{
+  width: 80%;
+  font-size: 12px;
+  text-align: right;
+  padding-right: 10px;
+}
+.the-date{
+  font-size: 14px;
+}
+.the-time{
+  font-size: 13px;
+}
+.saved-note{
+  width: 100%;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.note-area{
+  width: 98%;
+  word-wrap: break-word;
+}
+.del-div{
+  display: flex;
+  width: 98%;
+}
+.del{
+  border: solid 1px rgb(184, 183, 183);
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 5px;
+  background-color:  rgb(29, 28, 28);
+  color: rgb(184, 183, 183);
+}
